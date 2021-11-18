@@ -1,0 +1,39 @@
+import pickle
+
+def user_prof():
+  
+  #Welcome the User to LIMPO
+  print("Welcome to LIMPO!\n")
+  print("Please go ahead and sign in if you already have an account or create yours now to become part of the LIMPO community!\n")
+
+  options = input("Do you already have an account (Enter YES or NO): ")
+
+  #SIGN UP
+  if options == "NO":
+    name =input("Name:")
+    last_name = input("Last Name:")
+    username = input("Username:")
+    email = input("Email:")
+    telephone = input("Telephone:")
+    password = input("Password:")
+  
+    user_info = {'name' : name , 'last_name' : last_name , 'username' : username, 'email': email, 'Telephone': telephone, 'password': password }
+    print("\nYour account has been created. WELCOME!!")
+    # user_info["username"] = 
+
+    # save 
+    user_storage = open("user_storage", "wb")
+    pickle.dump(user_info, user_storage)
+    user_storage.close()
+    user_storage = open("user_storage", "rb")
+    output = pickle.load(user_storage)
+    print(output)
+    user_storage.close()
+
+  if options == "YES":
+    username = input("Username:")
+    passwrod = input("Password:")
+    print("\nWelcome back to LIMPO!")
+
+
+user_prof()
