@@ -21,6 +21,7 @@ The idea was born from seeing the struggle of students to handle work, social li
  1. Open the limpo_program.py file. 
  2. Rigth click on the project folder >> Click on "Run 'limpo_program'"
  3. Look at the console (pannel below) >> Enter the information as indicated >> Click Enter to continue.
+
  
 
 
