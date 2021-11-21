@@ -10,7 +10,7 @@ The idea was born from seeing the struggle of students to handle work, social li
 1. Install Python 3 in your computer. [Link to Python Download Site](https://www.python.org/downloads/)
 2. Install PyCharm in your computer. [Link to PyCharm Download Site](https://www.jetbrains.com/pycharm/download/#section=mac)
 3. Open PyCharm and create a project. (File >> New Project >> Create)
-4. Install the required packages. (PyCharm >> Preferences >> Python Interpreter >> Click on "+" >> Search the package in the Search Bar >> Install Package >> Close the Window >> Click "OK")
+4. Install the required packages. (PyCharm >> Preferences/Settings >> Python Interpreter >> Click on "+" >> Search the package in the Search Bar >> Install Package >> Close the Window >> Click "OK")
  - pandas
  - csv
  - tabulate
