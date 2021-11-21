@@ -11,7 +11,6 @@ The idea was born from seeing the struggle of students to handle work, social li
 3. Open PyCharm and create a project. (File >> New Project >> Create)
 4. Install the required packages. (PyCharm >> Preferences/Settings >> Python Interpreter >> Click on "+" >> Search the package in the Search Bar >> Install Package >> Close the Window >> Click "OK")
  - pandas
- - csv
  - tabulate
  5. Download the Zip file from GitHub. (Click on "Code" >> Download Zip)
  6. Open the folder in your desktop >> select all the files >> drag them to your project in PyCharm >> Click "Refactor"
